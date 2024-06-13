@@ -1,4 +1,7 @@
-package com.ifrutcommerce.ifrut.repositories;
+package com.ifruitcommerce.ifruit.repositories;
 
-public class UserRepository extends JpaRepository<User, Long> {
+import com.ifruitcommerce.ifruit.entities.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
 }

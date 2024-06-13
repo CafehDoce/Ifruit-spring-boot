@@ -1,10 +1,10 @@
-package com.ifrutcommerce.ifrut;
+package com.ifruitcommerce.ifruit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IfrutApplicationTests {
+class IfruitApplicationTests {
 
 	@Test
 	void contextLoads() {
